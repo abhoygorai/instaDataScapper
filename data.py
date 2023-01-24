@@ -5,3 +5,6 @@ with open('data1.csv', newline='') as f:
     data = list(reader)
 
 print(data)
+
+
+id_list = []
