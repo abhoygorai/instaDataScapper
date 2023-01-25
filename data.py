@@ -1,10 +1,10 @@
-import csv
+# import csv
 
-with open('data1.csv', newline='') as f:
-    reader = csv.reader(f)
-    data = list(reader)
+# with open('data1.csv', newline='') as f:
+#     reader = csv.reader(f)
+#     data = list(reader)
 
-print(data)
+# print(data)
 
 
 id_list = []

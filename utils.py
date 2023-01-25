@@ -156,3 +156,12 @@ def get_information(link):
         print(f'number of link error {n} at iteration {i}')
         pass
     return likes, comment_counts, dates, captions, type_posts, links
+
+
+def getPostCount(username):
+    # user name
+    url = f"https://www.instagram.com/{username}/"   
+    data = scrape_general_info(url)
+    return data["Posts"]
+        
+        
